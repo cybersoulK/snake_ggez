@@ -1,0 +1,9 @@
+[package]
+name = "snake_ggez"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ggez = { package="good-web-game", version="0.5.0" }
+rand = { package="quad-rand", version = "0.2.1" }
+cgmath = {version="0.18.0", features=["mint"]}
